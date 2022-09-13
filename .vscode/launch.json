@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args":[
+                //"--is_debug",
+                //"--train_data_path", "/home/gamir/liat/UnberteseNew/debug_data/train.json",
+                //"--test_data_path", "/home/gamir/liat/UnberteseNew/debug_data/dev.json",
+                // "--train_batch_size", "32",
+                // "--use_wandb"
+                "--evaluate"
+                //"--dont_save"
+            ]
+        }
+    ]
+}

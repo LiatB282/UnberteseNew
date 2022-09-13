@@ -1,0 +1,4 @@
+slurm_logs/*
+debug_data/*
+data/*
+wandb/*
